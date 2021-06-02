@@ -1,0 +1,155 @@
+
+html{
+  height: 100%;
+}
+
+body{
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 0;
+  height: 100%;
+  }
+
+.gmail, .images, .signin{
+  display: inline-block;
+}
+.copycat{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  height: 48px;
+  align-items: center;
+  padding: 6px;
+}
+.gmail, .images{
+  color: rgba(0,0,0,0.87);
+  cursor: pointer;
+  font-family: Roboto,RobotoDraft,Arial,sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+header a:link {
+  color: rgba(0,0,0,0.87);
+  text-decoration:none;}
+header a:visited{color: rgba(0,0,0,0.87)}
+header a:hover{
+  color: rgba(0,0,0,0.87);
+  text-decoration: underline;}
+header img{
+  padding: 7px;
+  cursor: pointer;
+  opacity: 0.7;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+header input{
+  width: 94px;
+  height: 34px;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: .25px;
+  color: white;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.googlelogo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  object-fit: contain;
+  margin-top: 100px;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis:
+}
+
+.searchbar input{
+  border: 1px solid #dfe1e5;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  width: 584px;
+  margin: 20px;
+}
+.buttons input{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+.lang{
+  font-size: small;
+  margin: 10px 0;
+  display: inline-block;
+  line-height: 28px;
+  flex-grow: 1;
+  text-align: center;
+}
+.lang a{
+  padding: 0 3px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+.lang a:hover{
+  text-decoration: underline;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 0 20px;
+}
+footer div{
+  display: flex;
+}
+footer a{
+  color: #70757a;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+.Southkorea{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+.bottomline{
+  background-color: #f2f2f2;
+}
+header, .googlelogo, .middle, ,.bottomline{
+  flex-shrink: 0;
+}
